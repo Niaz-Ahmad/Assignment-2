@@ -1,0 +1,913 @@
+/* universal-style */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+
+.item-orange{
+    color: #FF5400;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+     width: 155px;
+     height: 52px;
+     color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0px;
+}
+
+
+/* header section */
+
+/* nav-section */
+
+header{
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-name-div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-name{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.nav-link-div a{
+    text-decoration: none;
+}
+
+.nav-link-div{
+
+    color: #424247;
+   text-align: center;
+   font-family: Mulish;
+   font-size: 1.1rem;
+   font-weight: 400;
+   display: flex;
+   justify-content: space-between;
+   gap: 40px;
+}
+
+
+/* banner-style */
+
+
+.banner-section{
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 500px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+.banner-container{
+    padding: 100px;
+
+}
+
+.banner-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.banner-description{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+     font-weight: 400;
+}
+
+.banner-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 20px;
+
+
+    
+}
+
+.banner-npt{
+    width: 155px;
+    height: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+    justify-content: center;
+
+}
+
+.banner-npt input{
+    border: 0px;
+}
+
+/* main-section style */
+
+
+main{
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.popular-tour-container{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.popular-tour-img {
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+
+.popular-tour-title{
+
+     color: #131318;
+     font-family: Mulish;
+     font-size: 2.5rem;
+}
+
+
+.description{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+     font-weight: 400;
+}
+
+.popular-tour-intro{
+
+    display: flex;
+    justify-content: left;
+
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+/* choose-destination */
+
+
+
+
+.choose-destination-intro{
+    margin: 0px 300px;
+}
+
+/* .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+ } */
+
+.choose-destination-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.choose-destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+   font-family: Mulish;
+    font-size: 1rem;
+     font-weight: 400;
+}
+
+
+  .img-grid-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    gap: 10px;
+  }
+
+  .img-grid-two{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    gap: 10px;
+
+  }
+
+  .img-grid-three{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    gap: 10px;
+  }
+  
+  .img-grid{
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+/* .choose-img-grid-1{
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   margin-top: 10px;
+} */
+/* 
+.choose-img-grid-1 > .grid-img img{
+   justify-content: center;
+}
+
+.choose-img-grid-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.choose-img-grid-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+ } */
+
+
+ /* .grid-img{
+    position: relative;
+ } */
+
+ /* .maldives{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .indonesia{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* .grid-img-two{
+    position: relative;
+} */
+
+
+/* .srilanka{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .north-america{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+
+/* .kashmir{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+
+/* .grid-img-three{
+    position: relative;
+} */
+
+/* .bangladesh{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+/* .bandarban{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+ /* offer section */
+
+
+ /* .introduction{
+    padding-left: 300px;
+    padding-right: 300px;
+ } */
+
+  
+ 
+  /* .why-choose-us-section{
+  display:grid;
+  
+ } */
+
+ .offer-img{
+    height: 50px;
+    width: 50px; 
+ }
+
+
+ .offer-intro{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+     font-weight: 800;
+ }
+
+.offer-description{
+    color: rgba(19, 19, 24, 0.70);
+     text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hotel{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+    width: 530px;
+     height: 284px;
+}
+
+.map{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+    width: 530px;
+    height: 284px;
+    
+}
+
+.choose-us-offer{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.offer-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.best-price{
+
+    border-radius: 16px;
+   border: 1px solid rgba(233, 68, 68, 0.20);
+   background: rgba(233, 68, 68, 0.05);
+   width: 530px;
+   height: 284px;
+   margin: 20px 300px 0px 300px;
+}
+
+/* newslatter-section */
+
+.news-input-container{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    
+}
+
+
+
+.newsletter-container{
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
+    margin-top: 25px;
+    gap: 20px;
+    
+}
+
+.newsletter-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.newsletter-description{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.news-input-container input{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 10px;
+    border: 0px;
+}
+
+.subscribe-btn{
+    width: 400px;
+    height: 52px;
+    border-radius: 8px;
+     background: #FF5400;
+     border: 0px;
+}
+
+.subscribe-btn a{
+    color: #FFF;
+    align-items: center;
+     font-family: Mulish;
+     font-size: 20px;
+    font-weight: 800;
+}
+
+.news-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.news-img-container{
+    position: relative;
+    width: 100%;
+    
+}
+   
+.save-btn{
+    background-color: #FF5400;
+    border-radius: 8px;
+    height: 80px;
+    width: 200px;
+    transform: rotate(-20deg);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+   
+}
+
+.save-web{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+.save-ofr{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* qr-code-styles */
+
+.qr-code-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 221, 221);
+    border-radius: 16px;
+}
+
+.qr-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+     font-weight: 800;
+     margin-top: 100px;
+}
+
+.qr-description{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 100px;
+    margin-bottom: 100px;
+
+}
+
+.qr-intro{
+    align-items: center;
+}
+
+.qr-img{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+
+/* footer style */
+
+
+.footer{
+    margin: 0 auto;
+    max-width: 992px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #131318
+    font-family: Mulish;
+     font-size: 32px;
+     font-weight: 800;
+     
+    
+
+
+}
+
+.footer-description{
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 40px 330px;
+}
+
+
+.footer-icon{
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.copyrights{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* responsive styles */
+
+@media screen and (max-width: 600px) {
+
+
+    .nav-container{
+        flex-direction: row;
+
+    }
+
+    .nav-name{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+
+    .nav-name-div{
+        height: 50px;
+        
+    }
+
+    .nav-link-div a{
+        display: none;
+    }
+
+
+    .nav-link-div{
+       background-image: url('../Images/bars-solid.svg');
+       background-repeat: no-repeat;
+       object-fit: contain;
+       height: 40px;
+       width: 40px;
+       margin-top: 20px;
+    }
+
+    .banner-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        
+    }
+
+    .banner-title{
+        padding: 0px;
+    }
+
+    .banner-npt{
+        width: 174px;
+        height: 15px;
+        border-radius: 8px;
+        background: #FFF;
+        display: flex;
+        /* margin: 10px;
+        padding: 15px; */
+        justify-content: center;
+    
+    }
+
+    .banner-container{
+        padding: 0px;
+        justify-content: center;
+        margin-bottom: 20px;  
+     }
+
+
+    
+
+
+    .popular-tour-container {
+        flex-direction: column;
+    }
+
+    .popular-tour-img img{
+        width: 100%;
+    }
+
+    .choose-destination-intro{
+        margin: 0px;
+    }
+
+    .img-grid-one{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-grid-two{
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .img-grid-three{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-grid{
+        height: 200px;
+    }
+
+
+
+    .introduction{
+        padding: 5px;
+    }
+    .offer-intro{
+        text-align: left;
+    }
+    
+    .choose-us-offer{
+        flex-direction: column;
+    
+    }
+
+    .hotel{
+        height: 90%;
+        width: 90%;
+    }
+
+    .map{
+        height: 90%;
+        width: 90%;
+    }
+
+    .best-price{
+        margin: 0 auto;
+        margin-top: 25px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .newsletter-container{
+
+        flex-direction: column;
+    }
+
+    .news-input-container{
+        height: 80%;
+        width: 80%;
+    }
+
+    .news-input-container input{
+        width: 100%;
+    }
+
+    .subscribe-btn{
+        width: 100%;
+    }
+
+    .news-img-container img{
+        width: 100%;
+    }
+
+
+
+    .qr-code-container{
+        flex-direction: column;
+       
+    }
+    
+    .qr-title{
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 2.5rem;
+         font-weight: 800;
+        
+    }
+    
+    .qr-description{
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 80px;
+        margin-bottom: 0px;
+       
+    
+    }
+    
+    .qr-intro{
+        align-items: center;
+    }
+    
+    
+
+
+    .footer-intro{
+       justify-content: start;
+       padding: 15px;
+
+    }
+
+    .footer-description{
+        margin: 0px;
+        padding: 15px;
+    }
+
+    .footer-icon{
+        margin: 0px;
+        padding: 5px 130px;
+    }
+
+
+
+
+    .grid-img{
+        position: relative;
+     }
+
+     .grid-img img{
+        height: 100%;
+        width: 100%;
+     }
+
+     .grid-img-two img{
+        height: 100%;
+        width: 100%;
+     }
+
+     .grid-img-three img{
+        height: 100%;
+        width: 100%;
+     }
+
+     #mldv, #insa, #slka, #nram, #ksmr, #bd, #bdrbn{
+        height: 190px;
+     }
+
+     .maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 700;
+     }
+
+    
+     .maldives{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .indonesia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+}
+
+    
